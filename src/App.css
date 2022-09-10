@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0,.8);
+
+}
+.ntfx::before{
+  content: "\f0ac";
+  font-family:'FontAwesome';
+  color: #ffffff;
+  position: absolute;
+  right: 237px;
+  
+  /* background-color: white; */
+}
+
+.nav_class{
+  width: 100vw;
+  height: 100vh;
+  background: url(../public/netflix_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0,.9); */
+
+  object-fit: cover;
+}
+.svg-icon-netflix-logo{
+  width: 150px;
+  
+}
+.home_window_black{
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0,.6);
+}
+.myfont{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#ffffff;
+  margin: auto;
+  width: 40vw;
+  margin-top: 8%;
+  line-height: 50px;
+}
+.ad_word{
+  font-size: 26px;
+  color:#ffffff;
+  font-weight: 400;
+  font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.ad_service_w{
+  font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+.service_image{
+  width: 50vw;
+  height: 50vh;
+  z-index: auto;
+
+}
+.tv_video{
+ position: absolute;
+ top: -25px;
+ left: 55px;
+ padding-bottom: -20px;
+ padding-top: -20px;
+ z-index: -1;
+
+
+
+
+}
+
+.myvideo_cls{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 130px; */
+  /* height: 200px; */
+  
+  
+ 
+
+
+  z-index: -1;
+
+  padding-bottom: 150px;
+  padding-left: 150px;
+  padding-right: 160px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+ .svg-icon-netflix-logo{
+  width: 100px;
+ }
+ .service_image{
+  width: 100vw;
+  height: 35vh;
+ }
+ .myfont{
+  font-size: 28px;
+  width:80vw;
+  font-weight: 700;
+  line-height: 31px;
+ }
+ .ad_word{
+  font-size: 18px;
+  font-weight: 400;
+ }
+ .ad_service_w{
+  font-size: 18px;
+  font-weight: 400;
+ }
+ .nav_class{
+  height: 70vh;
+ }
+ .home_window_black{
+  height: 70vh;
+ }
+ .tv_video{
+  position: absolute;
+  
+ }
+ .myvideo_cls{
+  
+  
+  width: 100vw;
+  height: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 70px;
+  
+
+ }
+ .ntfx::before{
+  position: absolute;
+  right: 190px;
+ }
+ 
+
+}
