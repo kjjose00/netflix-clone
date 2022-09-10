@@ -63,7 +63,7 @@ function Services() {
                 <h1 className='lg:text-5xl text-3xl font-bold overflow-hidden'>Enjoy on your TV.</h1><br />
                 <p className='lg:text-2xl text-xl font-normal'>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
             </div>
-            <div className='lg:w-1/3 relative w-full' style={{zIndex:2}}>
+            <div className='lg:w-1/3 relative w-full overflow-hidden' style={{zIndex:2}}>
                 <img src={tv} alt="" className="service_image" />
             <ReactPlayer
              url={tvvideo} 
